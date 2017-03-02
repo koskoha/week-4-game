@@ -1,0 +1,65 @@
+/* #mute{
+	background: url(../../assets/images/mute.png) left center no-repeat;
+	padding: 5px;
+} */
+
+.inline{
+	display: inline-block;
+	text-align: center;
+}
+
+#skorpion{
+	display: none;
+	border: 2px solid grey;
+}
+#raiden{
+	display: none;
+	border: 2px solid grey;
+}
+#subzero{
+	display: none;
+	border: 2px solid grey;
+}
+#liukang{
+	display: none;
+	border: 2px solid grey;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+img{
+	width: 80%;
+	height: auto;
+}
+
+body{
+	background-image: url(../../assets/images/background3.jpg);
+ 	color: white;
+/*background-repeat:no-repeat;
+background-size:contain;
+background-position:center; */
+}
+
+.black_background{
+	border: 1px solid white;
+	padding-top: 30px;
+	padding-left: 4%;
+	background-color: black;
+	height: 1000px;
+	width: 750px;
+}
+
+#restart{
+	background-color: blue;
+}
+
+#attack{
+	background-color: red;
+}
+

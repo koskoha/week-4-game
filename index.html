@@ -7,20 +7,58 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src = "assets/javascript/game.js"></script>
 	<title></title>
 </head>
 <body>
+	<button id="mute"><img src="assets/images/mute.png" alt=""></button>
+	<audio class="background" loop preload="none">
+		<source src="assets/audio/background.mp3" type="audio/mpeg">
+	</audio>
+	<audio class="kick" preload="none">
+		<source src="assets/audio/kick.wav" type="audio/mpeg">
+	</audio>
+	<audio class="skorpion_name" preload="none">
+		<source src="assets/audio/skorpion_name.mp3" type="audio/mpeg">
+	</audio>
+		<audio class="raiden_name" preload="none">
+		<source src="assets/audio/raiden_name.mp3" type="audio/mpeg">
+	</audio>
+		<audio class="subzero_name" preload="none">
+		<source src="assets/audio/subzero_name.mp3" type="audio/mpeg">
+	</audio>
+		<audio class="liukang_name" preload="none">
+		<source src="assets/audio/liukang_name.mp3" type="audio/mpeg">
+	</audio>
+	<audio class="liukang_win" preload="none">
+		<source src="assets/audio/liukang_win.wav" type="audio/mpeg">
+	</audio>
+		<audio class="skorpion_win" preload="none">
+		<source src="assets/audio/skorpion_win.mp3" type="audio/mpeg">
+	</audio>
+		<audio class="raiden_win" preload="none">
+		<source src="assets/audio/raiden_win.wav" type="audio/mpeg">
+	</audio>
+		<audio class="subzero_win" preload="none">
+		<source src="assets/audio/subzero_win.wav" type="audio/mpeg">
+	</audio>
+		<audio class="defeated" preload="none">
+		<source src="assets/audio/defeated.wav" type="audio/mpeg">
+	</audio>
 
-<div class="container">
-	<div class="row" id="players">
-		<div id="obiwan"></div>
-		<div id="luke"></div>
-		<div id="dart"></div>
-		<div id="maul"></div>
-	</div>
-	<div class="row">
-		<button>attack</button>
-		<button></button>
+<div class="container black_background">
+	<div class="row" >
+		<div id="characters"></div>
+		<div> <h3>Your Character</h3></dir>
+		<div id='player'></div>
+		<div><h3>Enemies Availiable to Attack</h3></div>
+		<div id="opponents"></div>
+		<div><h3>Fight Section</h3></div>
+		<button id="attack">Attack</button>
+		<div><h3>Defender</h3></div>
+		<div id="defender"></div>
+		<button id="restart" class="hide">Restart</button>
+		<div id='info'></div>
 	</div>
 </div>
 
