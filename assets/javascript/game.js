@@ -219,7 +219,8 @@ $(document).ready(function(){
 				$('#defender').empty();
 				$('#player').empty();
 				$(".defeated").trigger('play');
-				$('#player').append('<div><br><h2 style="color:red">You are defeated!!!</h2><br></div>');
+				$('#deadChar').fadeIn("slow");
+				// $('#player').append('<div><br><h2 style="color:red">You are defeated!!!</h2><br></div>');
 				$('#restart').addClass('show');
 			}
 			if (defender.live == false && enemiesCounter <= 0) {
