@@ -305,4 +305,4 @@ function printDefender(defender){
 	console.log("DEFENDER live ", defender.live);
 }
 
->>>>>>> develop
+
