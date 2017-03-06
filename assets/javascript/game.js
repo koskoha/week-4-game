@@ -23,6 +23,7 @@ $(document).ready(function(){
 	 		this.attackPower +=this.attackCons;
 	 		if (defender.hp <= 0) {
 	 			$('#defender').empty();
+	 			$(".death").trigger('play');
 	 			enemiesCounter --;
 	 			defender.live = false;
 	 			defenderAssigned = false;
