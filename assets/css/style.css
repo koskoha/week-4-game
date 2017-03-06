@@ -1,6 +1,82 @@
-#players div{
+
+.inline{
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	background-color: grey;
+	text-align: center;
 }
+
+#deadChar{
+	display: none;
+	width: 150px;
+	border: 2px solid #4276a9;
+}
+
+#skorpion{
+	display: none;
+	border: 2px solid grey;
+}
+#raiden{
+	display: none;
+	border: 2px solid grey;
+}
+#subzero{
+	display: none;
+	border: 2px solid grey;
+}
+#liukang{
+	display: none;
+	border: 2px solid grey;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+img{
+	width: 80%;
+	height: auto;
+}
+
+body{
+ 	color: white;
+ 	background: url(../../assets/images/background3.jpg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+.black_background{
+	border: 1px solid white;
+	padding-top: 30px;
+	padding-left: 4%;
+	background-color: black;
+	height: 1000px;
+	width: 750px;
+}
+
+#restart{
+	background-color: blue;
+}
+
+#attack{
+	background-color: red;
+}
+
+@media screen and (max-width: 768px){
+	body{
+		background: black;
+	}
+
+	.black_background{
+		width: auto;
+		height: auto;
+		margin: 10px;
+		padding: 30px;
+	}
+}
+
+>>>>>>> develop
