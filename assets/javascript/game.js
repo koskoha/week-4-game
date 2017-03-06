@@ -219,6 +219,7 @@ $(document).ready(function(){
 				$('#defender').empty();
 				$('#player').empty();
 				$(".defeated").trigger('play');
+				$('#player').html('<img id="deadChar" src="assets/images/dead.jpg">');
 				$('#deadChar').fadeIn("slow");
 				// $('#player').append('<div><br><h2 style="color:red">You are defeated!!!</h2><br></div>');
 				$('#restart').addClass('show');

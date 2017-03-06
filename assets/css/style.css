@@ -8,6 +8,12 @@
 	text-align: center;
 }
 
+#deadChar{
+	display: none;
+	width: 150px;
+	border: 2px solid #4276a9;
+}
+
 #skorpion{
 	display: none;
 	border: 2px solid grey;
@@ -39,8 +45,12 @@ img{
 }
 
 body{
-	background-image: url(../../assets/images/background3.jpg);
  	color: white;
+ 	background: url(../../assets/images/background3.jpg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
 /*background-repeat:no-repeat;
 background-size:contain;
 background-position:center; */
@@ -61,5 +71,18 @@ background-position:center; */
 
 #attack{
 	background-color: red;
+}
+
+@media screen and (max-width: 768px){
+	body{
+		background: black;
+	}
+
+	.black_background{
+		width: auto;
+		height: auto;
+		margin: 10px;
+		padding: 30px;
+	}
 }
 
